@@ -20,7 +20,7 @@ namespace TYPO3\SymfonyPsrEventDispatcherAdapter;
 use Psr\EventDispatcher\EventDispatcherInterface;
 use Symfony\Contracts\EventDispatcher\EventDispatcherInterface as SymfonyEventDispatcherInterface;
 
-final class SymfonyEventDispatcherAdapter implements SymfonyEventDispatcherInterface
+final class EventDispatcherAdapter implements SymfonyEventDispatcherInterface
 {
     /**
      * @var EventDispatcherInterface
