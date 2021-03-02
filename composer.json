@@ -6,7 +6,7 @@
     "homepage": "https://typo3.org/",
     "keywords": ["psr", "psr-14", "events", "adapter"],
     "require": {
-        "php": "^7.2",
+        "php": "^7.2 || ^8.0",
         "symfony/event-dispatcher-contracts": "^2.0",
         "psr/event-dispatcher": "^1.0"
     },
